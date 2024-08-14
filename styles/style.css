@@ -34,9 +34,6 @@ p {
 
 /* header */
 
-header {
-    padding: 50px 140px;
-}
 
 
 /*  nav styles*/
@@ -85,9 +82,14 @@ nav ul {
     align-items: center;
 }
 
-/*  banner styles*/
+.menu {
+    display: none;
+}
+ 
+
+/* banner */
 .banner-container {
-    
+
     /* padding: 50px 140px; */
     width: 100%px;
     height: 500px;
@@ -95,7 +97,7 @@ nav ul {
     border-radius: 16px;
     /* background-image:url("../Images/banner.png"),  linear-gradient(180.00deg, rgba(19, 19, 24, 0.8), rgba(19, 19, 24, 0) 100%); */
     background-repeat: no-repeat;
-    background-position: 100%;
+    /* background-position: 100%; */
 }
 
 
@@ -178,9 +180,6 @@ nav ul {
 }
 
 /* main styles */
-main {
-    padding: 50px 100px;
-}
 
 .tours-title {
     color: rgb(19, 19, 24);
@@ -199,19 +198,17 @@ main {
     /* padding: 30px; */
 }
 
-.tours-container {
-    padding: 50px 100px;
-}
+
 
 .destination-1 {
     display: flex;
-    gap: 20px;
+    gap: 30px;
     position: relative;
 }
 
-.destination-photo-1 {
-    position: ;
-}
+
+    
+
 
 .destination-title-1 {
     position: absolute;
@@ -226,7 +223,7 @@ main {
 .destination-title-2 {
     position: absolute;
     top: 43.5%;
-    left: 80%;
+    left: 65%;
     color: white;
     font-size: 28px;
     font-weight: 800;
@@ -245,7 +242,7 @@ main {
     font-size: 28px;
     font-weight: 800;
     position: absolute;
-    top: 41%;
+    top: 39%;
     left: 13%;
 
 }
@@ -256,7 +253,7 @@ main {
     font-weight: 800;
     position: absolute;
     top: 41%;
-    left: 52%;
+    left: 43%;
 }
 
 .destination-title-5 {
@@ -265,7 +262,7 @@ main {
     font-weight: 800;
     position: absolute;
     top: 41%;
-    left: 93.5%;
+    left: 75.5%;
 }
 
 .destination-3 {
@@ -290,7 +287,7 @@ main {
     font-weight: 800;
     position: absolute;
     top: 41%;
-    left: 71%;
+    left: 61%;
 }
 
 /* reason styles */
@@ -628,29 +625,16 @@ hr {
 /* responsive styles */
 /* iphone-13 */
 @media screen and (max-width:375px) {
-
-
-    body {
-        /* padding: 20px; */
-        /* max-width: 375px; */
-    }
-
-    header,
-    main {
-        padding: 20px;
-    }
-
-    p {
-        max-width: 330px;
-    }
-
     .head-title {
         align-items: flex-start;
     }
 
     .head-title>img {
-        width: 60%;
+        width: 40%;
 
+    }
+    p{
+        font-size: .75rem;
     }
 
     .title-h {
@@ -658,11 +642,12 @@ hr {
     }
 
     nav {
-        justify-content: space-around;
+        justify-content: space-between;
     }
 
     nav ul {
         flex-direction: column;
+        display: none;
     }
 
     .banner-title {
@@ -681,7 +666,7 @@ hr {
         left: 7.5%;
         width: 290px;
         height: 280px;
-        top: 61%;
+        top: 35%;
         gap: 10px;
 
     }
@@ -704,6 +689,8 @@ hr {
     .newsletter-container,
     .serve-3-container {
         flex-direction: column;
+        flex-wrap: nowrap;
+        position: relative;
         /* align-items: flex-start; */
     }
 
@@ -723,50 +710,139 @@ hr {
         width: 335px;
     }
 
-    .tours-container {
-        padding: 10px;
+    .destination-title-1 {
+        position: absolute;
+        top: 20%;
     }
 
-    .reason-container {
-        grid-template-columns: repeat(1, 1fr);
+    .destination-title-2 {
+        position: absolute;
+        left: 27%;
+        top: 70%;
     }
 
-    .deals-container,
-    .deals-container-2 {
-        height: 500px;
-        width: 335px;
+    .destination-title-3 {
+        position: absolute;
+        top: 10%;
+        left: 30%;
     }
 
-    .deal-1,
-    .deal-2 {
-        width: 300px;
-        height: 400px;
-        margin-left: 10px;
+    .destination-title-4 {
+        position: absolute;
+        top: 45%;
+        left: 10%;
     }
 
-    .serve-1,
-    .serve-2,
-    .serve-3 {
-        height: 290px;
-        width: 335px;
+    .destination-title-5 {
+        position: absolute;
+        left: 20%;
+        top: 80%;
+    }
 
+    .destination-title-6 {
+        position: absolute;
+        top: 20%;
 
     }
 
-    .serve-description {
-        font-size: 11px;
+    .destination-title-7 {
+        position: absolute;
+        left: 20%;
+        top: 70%;
     }
 
-    .mount-pic >img{
-        width: 330px;
-        min-height: 400px;
-    }
-    .photo>img{
-        width: 350px;
-    }
+        .tours-container {
+            /* padding: 10px; */
+        }
 
-    .tours-head {
-        margin-top: 190px;
-        align-items: center;
+        .reason-container {
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        .deals-container,
+        .deals-container-2 {
+            height: 500px;
+            width: 335px;
+        }
+
+        .deal-1,
+        .deal-2 {
+            width: 300px;
+            height: 400px;
+            margin-left: 10px;
+        }
+
+        .serve-1,
+        .serve-2,
+        .serve-3 {
+            height: 290px;
+            width: 335px;
+
+
+        }
+
+        .serve-description {
+            font-size: 11px;
+        }
+
+        .mount-pic>img {
+            width: 350px;
+            height: 400px;
+        }
+
+        .photo>img {
+            width: 350px;
+        }
+
+        .tours-head {
+            margin-top: 190px;
+            align-items: center;
+        }
+
+        /* hover */
+        .m-icon {
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+        }
+
+        .menu {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dd {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            flex-direction: column;
+        }
+
+        .dd ul {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .dd li {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            /* flex-direction: column; */
+        }
+
+        .dd li:hover {
+            background-color: rgb(255, 84, 0);
+        }
+
+        .menu:hover .dd {
+            display: block;
+        }
+
+        .menu:hover .m-icon {
+            background-color: rgb(255, 84, 0);
+        }
+
+
     }
-}
