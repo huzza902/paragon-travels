@@ -85,7 +85,7 @@ nav ul {
 .menu {
     display: none;
 }
- 
+
 
 /* banner */
 .banner-container {
@@ -207,7 +207,7 @@ nav ul {
 }
 
 
-    
+
 
 
 .destination-title-1 {
@@ -591,6 +591,28 @@ h3 {
     font-size: 1.5rem;
 }
 
+.percent {
+    height: 120px;
+    width: 324px;
+    border: 2px solid red;
+    color: white;
+    background-color: rgb(255, 84, 0);
+    border-radius: 20px;
+    
+    position: absolute;
+    width: 324px;
+    height: 120px;
+    left: 960px;
+    right: -960px;
+    top: 6239.84px;
+    bottom: -6254.84px;
+    transform: rotate(-19.63deg);
+}
+
+.percent h3 {
+    padding: 5px;
+}
+
 
 /* footer styles */
 .footer {
@@ -633,8 +655,8 @@ hr {
         width: 20%;
 
     }
-    
-    p{
+
+    p {
         font-size: .75rem;
     }
 
@@ -752,99 +774,99 @@ hr {
         top: 70%;
     }
 
-        .tours-container {
-            /* padding: 10px; */
-        }
+    .tours-container {
+        /* padding: 10px; */
+    }
 
-        .reason-container {
-            grid-template-columns: repeat(1, 1fr);
-        }
+    .reason-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
 
-        .deals-container,
-        .deals-container-2 {
-            height: 500px;
-            width: 335px;
-        }
+    .deals-container,
+    .deals-container-2 {
+        height: 500px;
+        width: 335px;
+    }
 
-        .deal-1,
-        .deal-2 {
-            width: 300px;
-            height: 400px;
-            margin-left: 10px;
-        }
+    .deal-1,
+    .deal-2 {
+        width: 300px;
+        height: 400px;
+        margin-left: 10px;
+    }
 
-        .serve-1,
-        .serve-2,
-        .serve-3 {
-            height: 290px;
-            width: 335px;
-
-
-        }
-
-        .serve-description {
-            font-size: 11px;
-        }
-
-        .mount-pic>img {
-            width: 350px;
-            height: 400px;
-        }
-
-        .photo>img {
-            width: 350px;
-        }
-
-        .tours-head {
-            margin-top: 190px;
-            align-items: center;
-        }
-
-        /* hover */
-        .m-icon {
-            padding: 16px;
-            font-size: 16px;
-            border: none;
-        }
-
-        .menu {
-            position: relative;
-            display: inline-block;
-        }
-
-        .dd {
-            display: none;
-            position: absolute;
-            background-color: #f1f1f1;
-            min-width: 160px;
-            flex-direction: column;
-        }
-
-        .dd ul {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .dd li {
-            color: black;
-            padding: 12px 16px;
-            text-decoration: none;
-            display: block;
-            /* flex-direction: column; */
-        }
-
-        .dd li:hover {
-            background-color: rgb(255, 84, 0);
-        }
-
-        .menu:hover .dd {
-            display: block;
-        }
-
-        .menu:hover .m-icon {
-            background-color: rgb(255, 84, 0);
-        }
-       
+    .serve-1,
+    .serve-2,
+    .serve-3 {
+        height: 290px;
+        width: 335px;
 
 
     }
+
+    .serve-description {
+        font-size: 11px;
+    }
+
+    .mount-pic>img {
+        width: 350px;
+        height: 400px;
+    }
+
+    .photo>img {
+        width: 350px;
+    }
+
+    .tours-head {
+        margin-top: 190px;
+        align-items: center;
+    }
+
+    /* hover */
+    .m-icon {
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+    }
+
+    .menu {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dd {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        flex-direction: column;
+    }
+
+    .dd ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dd li {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        /* flex-direction: column; */
+    }
+
+    .dd li:hover {
+        background-color: rgb(255, 84, 0);
+    }
+
+    .menu:hover .dd {
+        display: block;
+    }
+
+    .menu:hover .m-icon {
+        background-color: rgb(255, 84, 0);
+    }
+
+
+
+}
