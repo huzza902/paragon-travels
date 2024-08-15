@@ -630,7 +630,7 @@ hr {
     }
 
     .head-title>img {
-        width: 40%;
+        width: 20%;
 
     }
     p{
@@ -843,6 +843,7 @@ hr {
         .menu:hover .m-icon {
             background-color: rgb(255, 84, 0);
         }
+       
 
 
     }
