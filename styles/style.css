@@ -598,10 +598,10 @@ h3 {
     color: white;
     background-color: rgb(255, 84, 0);
     border-radius: 20px;
-    
+
     position: absolute;
-    width: 324px;
-    height: 120px;
+
+
     left: 960px;
     right: -960px;
     top: 6239.84px;
@@ -820,6 +820,30 @@ hr {
     .tours-head {
         margin-top: 190px;
         align-items: center;
+    }
+
+    .percent{
+        height: 80px;
+        width: 200px;
+        border: 2px solid red;
+        color: white;
+        background-color: rgb(255, 84, 0);
+        border-radius: 20px;
+        
+        position: absolute;
+    
+
+        left: 120.78px;
+        right: -120.78px;
+        top: 80%;
+        bottom: 70%;
+        transform: rotate(-19.63deg);
+
+    }
+
+    .percent h3 {
+        padding: 5px;
+        font-size: .85rem;
     }
 
     /* hover */
